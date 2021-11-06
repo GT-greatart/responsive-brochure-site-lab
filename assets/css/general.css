@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Sofia", sans-serif; */
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+    /* font-family: "Rubik", sans-serif; */
+    /* font-family: "Chewy", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "IrishGrover", cursive;
+}
+
+p {
+    font-size: 25px;
+    font-style: normal;
+}
+
+h2 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 45px;
+}
+
+.h2Breed {
+    color: brown;
+    letter-spacing: 3px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-color: rgb(243, 197, 197);
+    text-align: center;
+    width: 100vw;
+}
+
+.header2 {
+    background-color: rgb(243, 197, 197);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.stickyFoot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(7, 157, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px #bee0eb;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+.content {
+    padding: 0px;
+    height: 100%;
+}
+
+.footText {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.foot {
+    width: 100%;
+    background-color: turquoise;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: tomato;
+    font-style: italic;
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
+.pf {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 5px 20px 20px 20px;
+}
+
+.meetSkipBoxLeft {
+    width: 100%;
+    padding: 10px;
+    border: 7px solid rgb(236, 234, 234);
+}
+
+.hi-skip-img {
+    padding-top: 10px;
+}
+
+.shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.grad1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(219, 173, 247);
+    background-image: linear-gradient(to top right, rgb(247, 146, 208), rgb(214, 165, 243), rgb(185, 245, 217));
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    justify-content: center;
+}
+
+.gallery-photo {
+    margin: 10px 10px;
+    max-height: 300px;
+}
+
+.paperBackground {
+    width: 100vw;
+    height: 100%;
+    background-image: url("../../assets/img/paper.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+.dog {
+    background-image: url("../../assets/img/dog.svg");
+    background-position: right top;
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: 120px;
+}
+
+.wrapper {
+    z-index: -1;
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url("../../assets/img/grass1.png");
+}
+
+.aside {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titleHeader {
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    letter-spacing: 3px;
+}
+
+.paw {
+    height: 95px;
+}
+
+.historyRight {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* COLUMNS */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 45%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

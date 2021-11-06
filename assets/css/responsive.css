@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+    .gallery-photo {
+        margin: 10px 10px;
+        max-height: fit-content;
+        width: 100%;
+    }
+    .titleHeader {
+        font-size: 35px;
+    }
+    .paw {
+        height: 65px !important;
+    }
+    .navbar a {
+        padding: 5px 12px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .h2Breed {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .row {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .dog {
+        width: 90px !important;
+        top: 15px !important;
+        right: 10px !important;
+        z-index: -1 !important;
+    }
+    p {
+        font-size: 20px;
+    }
+    [class*="col-"] {
+        padding: 20px 0px 0px 20px;
+    }
+    .col-8 {
+        width: 90% !important;
+    }
+    .pf {
+        font-size: 13px;
+    }
+    .hi-skip-img {
+        width: 100%;
+    }
+    .meetSkipBoxRight {
+        width: 100%;
+        padding: 00px 00px 00px 0px;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .titleHeader {
+        font-size: 50px;
+    }
+    .dog {
+        width: 150px !important;
+        top: 100px !important;
+        z-index: -1;
+    }
+    .col-8 {
+        width: 90% !important;
+        padding-left: 20px;
+    }
+    .gallery-photo {
+        margin: 15px 10px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titleHeader {
+        font-size: 80px;
+    }
+    .meetSkipBoxRight {
+        width: 50%;
+        padding: 00px 00px 00px 60px;
+    }
+    .hi-skip-img {
+        width: 45%;
+    }
+    .navbar a {
+        padding: 10px 30px;
+        font-size: 35px;
+    }
+    .dog {
+        width: 160px !important;
+        top: 130px !important;
+        z-index: -1;
+    }
+    .col-8 {
+        width: 90% !important;
+        padding-left: 20px;
+    }
+    .gallery-photo {
+        margin: 10px 10px;
+        max-height: 400px;
+    }
+}
